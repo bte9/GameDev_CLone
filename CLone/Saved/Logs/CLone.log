@@ -1,0 +1,754 @@
+﻿Log file open, 11/26/16 13:04:32
+LogInit:Display: Running engine for game: CLone
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1478925672) SRandInit(-1478925672).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.074993
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin AudioCapture, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/AudioCapture/AudioCapture.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGameCircle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGameCircle/OnlineSubsystemGameCircle.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin MIDIDevice, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MIDIDevice/MIDIDevice.uplugin
+LogPluginManager: Loaded Plugin MobilePatchingUtils, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/MobilePatchingUtils/MobilePatchingUtils.uplugin
+LogPluginManager: Loaded Plugin Ansel, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Nvidia/Ansel/Ansel.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogPluginManager: Loaded Plugin EditorTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/EditorTests/EditorTests.uplugin
+LogPluginManager: Loaded Plugin FbxAutomationTestBuilder, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FbxAutomationTestBuilder/FbxAutomationTestBuilder.uplugin
+LogPluginManager: Loaded Plugin FunctionalTestingEditor, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/FunctionalTestingEditor/FunctionalTestingEditor.uplugin
+LogPluginManager: Loaded Plugin RuntimeTests, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/RuntimeTests/RuntimeTests.uplugin
+LogPluginManager: Loaded Plugin ScreenshotTools, From C:/Program Files (x86)/Epic Games/4.14/Engine/Plugins/Tests/ScreenshotTools/ScreenshotTools.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.14-CL-3195953
+LogInit: Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Compatible Engine Version: 4.14.0-3195953+++UE4+Release-4.14
+LogInit: Net CL: 3195953
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 7
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 8
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 17
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 1
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Nov 12 2016 02:14:10
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.14
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.14/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.11.26-19.04.32:915][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.26-19.04.32:915][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.11.26-19.04.32:939][  0]LogInit: Computer: LENOVO0823
+[2016.11.26-19.04.32:939][  0]LogInit: User: Owner
+[2016.11.26-19.04.32:939][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.11.26-19.04.32:939][  0]LogInit: High frequency timer resolution =2.338349 MHz
+[2016.11.26-19.04.32:939][  0]LogMemory: Memory total: Physical=11.8GB (12GB approx)
+[2016.11.26-19.04.32:939][  0]LogMemory: Platform Memory Stats for Windows
+[2016.11.26-19.04.32:939][  0]LogMemory: Process Physical Memory: 262.07 MB used, 262.07 MB peak
+[2016.11.26-19.04.32:939][  0]LogMemory: Process Virtual Memory: 262.35 MB used, 262.35 MB peak
+[2016.11.26-19.04.32:939][  0]LogMemory: Physical Memory: 4686.80 MB used,  7395.47 MB free, 12082.27 MB total
+[2016.11.26-19.04.32:939][  0]LogMemory: Virtual Memory: 659.50 MB used,  7395.47 MB free, 134217728.00 MB total
+[2016.11.26-19.04.32:970][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.11.26-19.04.33:507][  0]LogD3D11RHI: D3D11 adapters:
+[2016.11.26-19.04.33:530][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GT 750M' (Feature Level 11_0)
+[2016.11.26-19.04.33:530][  0]LogD3D11RHI:       1966/0/6041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.11.26-19.04.33:556][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GT 750M' (Feature Level 11_0)
+[2016.11.26-19.04.33:556][  0]LogD3D11RHI:       1966/0/6041 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2016.11.26-19.04.33:558][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.11.26-19.04.33:558][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.11.26-19.04.33:558][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.11.26-19.04.33:561][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.11.26-19.04.33:561][  0]LogD3D11RHI:     GPU DeviceId: 0xfe4 (for the marketing name, search the web for "GPU Device Id")
+[2016.11.26-19.04.33:561][  0]LogWindows: EnumDisplayDevices:
+[2016.11.26-19.04.33:561][  0]LogWindows:    0. 'NVIDIA GeForce GT 750M' (P:1 D:1)
+[2016.11.26-19.04.33:561][  0]LogWindows:    1. 'NVIDIA GeForce GT 750M' (P:0 D:0)
+[2016.11.26-19.04.33:561][  0]LogWindows:    2. 'NVIDIA GeForce GT 750M' (P:0 D:0)
+[2016.11.26-19.04.33:561][  0]LogWindows:    3. 'NVIDIA GeForce GT 750M' (P:0 D:0)
+[2016.11.26-19.04.33:562][  0]LogWindows:    4. 'NVIDIA GeForce GT 750M' (P:0 D:0)
+[2016.11.26-19.04.33:562][  0]LogWindows:    5. 'NVIDIA GeForce GT 750M' (P:0 D:0)
+[2016.11.26-19.04.33:562][  0]LogWindows:    6. 'NVIDIA GeForce GT 750M' (P:0 D:0)
+[2016.11.26-19.04.33:562][  0]LogWindows: DebugString: FoundDriverCount:7 
+[2016.11.26-19.04.33:562][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GT 750M
+[2016.11.26-19.04.33:562][  0]LogD3D11RHI:   Driver Version: 372.54 (internal:21.21.13.7254, unified:372.54)
+[2016.11.26-19.04.33:562][  0]LogD3D11RHI:      Driver Date: 8-11-2016
+[2016.11.26-19.04.33:562][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.11.26-19.04.33:572][  0]LogD3D11RHI: Async texture creation enabled
+[2016.11.26-19.04.33:591][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2016.11.26-19.04.33:591][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Intermediate/Shaders/WorkingDirectory/7376/).
+[2016.11.26-19.04.33:591][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Owner/AppData/Local/Temp/UnrealShaderWorkingDir/C9248B7141B98909B859D5B4A59303DF/'.
+[2016.11.26-19.04.33:591][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.11.26-19.04.34:688][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.11.26-19.04.34:750][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2016.11.26-19.04.34:805][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2016.11.26-19.04.34:854][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2016.11.26-19.04.34:904][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2016.11.26-19.04.34:953][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.11.26-19.04.35:003][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.11.26-19.04.35:052][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.11.26-19.04.35:092][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.11.26-19.04.35:140][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.11.26-19.04.35:188][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.11.26-19.04.35:237][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.11.26-19.04.35:285][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.11.26-19.04.35:334][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.11.26-19.04.35:382][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.11.26-19.04.35:479][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.11.26-19.04.35:479][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.11.26-19.04.35:512][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.11.26-19.04.35:590][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.11.26-19.04.35:623][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.11.26-19.04.35:671][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.11.26-19.04.35:720][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.11.26-19.04.35:769][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.11.26-19.04.35:818][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.11.26-19.04.35:818][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.11.26-19.04.36:164][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.11.26-19.04.36:212][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Owner/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2016.11.26-19.04.36:212][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Owner/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc
+[2016.11.26-19.04.36:212][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.11.26-19.04.36:212][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.11.26-19.04.36:212][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.11.26-19.04.36:212][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.11.26-19.04.36:229][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.11.26-19.04.36:242][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Owner/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.11.26-19.04.36:435][  0]LogInit: Selected Device Profile: [Windows]
+[2016.11.26-19.04.36:438][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.11.26-19.04.36:626][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2016.11.26-19.04.36:662][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2016.11.26-19.04.36:701][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2016.11.26-19.04.36:701][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2016.11.26-19.04.36:701][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.11.26-19.04.37:158][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3195953, ProjectName: clone, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 1457857002
+[2016.11.26-19.04.37:213][  0]LogAssetRegistry: FAssetRegistry took 0.0223 seconds to start up
+[2016.11.26-19.04.37:276][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.043948 seconds
+[2016.11.26-19.04.37:281][  0]LogUObjectArray: 31946 objects as part of root set at end of initial load.
+[2016.11.26-19.04.37:281][  0]LogUObjectAllocator: 6935848 out of 0 bytes used by permanent object pool.
+[2016.11.26-19.04.37:281][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.11.26-19.04.37:336][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.11.26-19.04.37:985][  0]LogSlate: Using Freetype 2.6.0
+[2016.11.26-19.04.37:985][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.26-19.04.37:985][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.11.26-19.04.38:753][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.11.26-19.04.38:788][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.11.26-19.04.39:065][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.11.26-19.04.39:398][  0]SourceControl: Info Source control is disabled
+[2016.11.26-19.04.39:441][  0]SourceControl: Info Source control is disabled
+[2016.11.26-19.04.39:480][  0]SourceControl: Info Source control is disabled
+[2016.11.26-19.04.39:520][  0]SourceControl: Info Source control is disabled
+[2016.11.26-19.04.40:586][  0]LogEngine: Initializing Engine...
+[2016.11.26-19.04.40:586][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.11.26-19.04.40:797][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.11.26-19.04.40:804][  0]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.26-19.04.40:819][  0]LogInit: FAudioDevice initialized.
+[2016.11.26-19.04.40:843][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/Owner/AppData/Local/UnrealEngine/4.14/DerivedDataCache/Boot.ddc.
+[2016.11.26-19.04.40:848][  0]LogInit: Texture streaming: Enabled
+[2016.11.26-19.04.41:007][  0]LogInit: Transaction tracking system initialized
+[2016.11.26-19.04.41:301][  0]BlueprintLog: New page: Editor Load
+[2016.11.26-19.04.42:057][  0]LocalizationService: Info Localization service is disabled
+[2016.11.26-19.04.42:619][  0]LogConsoleResponse:Display: 
+[2016.11.26-19.04.42:740][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.11.26-19.04.42:740][  0]LogCook:Display: Mobile HDR setting 1
+[2016.11.26-19.04.43:550][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/' took 0.01s
+[2016.11.26-19.04.43:550][  0]SourceControl: Info Source control is disabled
+[2016.11.26-19.04.43:550][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.26-19.04.43:583][  0]LightingResults: New page: Lighting Build
+[2016.11.26-19.04.43:618][  0]MapCheck: New page: Map Check
+[2016.11.26-19.04.43:618][  0]LightingResults: New page: Lighting Build
+[2016.11.26-19.04.45:096][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.11.26-19.04.45:097][  0]LogActorComponent: RegisterComponentWithWorld: (/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2016.11.26-19.04.45:142][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.26-19.04.45:143][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.26-19.04.45:212][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 68.219ms to complete.
+[2016.11.26-19.04.45:212][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.662
+[2016.11.26-19.04.45:680][  0]LogCollectionManager: Loaded 0 collections in 0.001510 seconds
+[2016.11.26-19.04.45:751][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/Github/GameDev_CLone/CLone/Saved/Collections/' took 0.01s
+[2016.11.26-19.04.45:751][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Developers/Owner/Collections/' took 0.01s
+[2016.11.26-19.04.45:751][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Collections/' took 0.01s
+[2016.11.26-19.04.45:751][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2016.11.26-19.04.45:759][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2190 classes and 428 folders.
+[2016.11.26-19.04.45:795][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.11.26-19.04.45:795][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.11.26-19.04.45:796][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 13 classes and 0 folders.
+[2016.11.26-19.04.45:850][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.11.26-19.04.48:410][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2016.11.26-19.04.48:459][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.11.26-19.04.48:554][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.11.26-19.04.48:564][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.11.26-19.04.48:622][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.11.26-19.04.48:622][  0]LogLoad: (Engine Initialization) Total time: 17.06 seconds
+[2016.11.26-19.04.48:622][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.08 seconds
+[2016.11.26-19.04.48:623][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.11.26-19.04.48:623][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.11.26-19.04.48:640][  0]LogOcInput: OculusInput pre-init called
+[2016.11.26-19.04.48:659][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.11.26-19.04.48:934][  0]LogRenderer: Reallocating scene render targets to support 964x436 NumSamples 1 (Frame:2).
+[2016.11.26-19.04.49:052][  1]LogAssetRegistry: Asset discovery search completed in 11.8614 seconds
+[2016.11.26-19.04.49:052][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.11.26-19.04.49:052][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000013 seconds (updated 0 objects)
+[2016.11.26-19.04.58:139][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:139][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/CLmap.umap.
+[2016.11.26-19.04.58:151][514]LoadErrors:Error: Error /Game/CLmap : Can't find file for asset. /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter
+[2016.11.26-19.04.58:151][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:152][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/CLmap.umap.
+[2016.11.26-19.04.58:161][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:161][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/CLmap.umap.
+[2016.11.26-19.04.58:162][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:162][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/CLmap.umap.
+[2016.11.26-19.04.58:162][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:162][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/CLmap.umap.
+[2016.11.26-19.04.58:165][514]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_Mat'
+[2016.11.26-19.04.58:165][514]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_Mat' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/CLmap.umap.
+[2016.11.26-19.04.58:165][514]LoadErrors:Error: Error /Game/CLmap : Can't find file for asset. /Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_Mat
+[2016.11.26-19.04.58:176][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Rust_Mat'
+[2016.11.26-19.04.58:177][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Rust_Mat' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/CLmap.umap.
+[2016.11.26-19.04.58:177][514]LoadErrors:Error: Error /Game/CLmap : Can't find file for asset. /Game/StarterContent/Textures/T_Metal_Rust_Mat
+[2016.11.26-19.04.58:177][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Steel_Mat'
+[2016.11.26-19.04.58:177][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Steel_Mat' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/CLmap.umap.
+[2016.11.26-19.04.58:177][514]LoadErrors:Error: Error /Game/CLmap : Can't find file for asset. /Game/StarterContent/Textures/T_Metal_Steel_Mat
+[2016.11.26-19.04.58:177][514]LogLinker:Warning: Can't find file '/Game/key'
+[2016.11.26-19.04.58:178][514]LogLinker:Warning: Can't find file for asset '/Game/key' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/CLmap.umap.
+[2016.11.26-19.04.58:178][514]LoadErrors:Error: Error /Game/CLmap : Can't find file for asset. /Game/key
+[2016.11.26-19.04.58:178][514]LogLinker:Warning: Can't find file '/Game/mainChar2'
+[2016.11.26-19.04.58:178][514]LogLinker:Warning: Can't find file for asset '/Game/mainChar2' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/CLmap.umap.
+[2016.11.26-19.04.58:178][514]LoadErrors:Error: Error /Game/CLmap : Can't find file for asset. /Game/mainChar2
+[2016.11.26-19.04.58:178][514]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_Mat'
+[2016.11.26-19.04.58:178][514]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_Mat' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/CLmap.umap.
+[2016.11.26-19.04.58:184][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Rust_Mat'
+[2016.11.26-19.04.58:184][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Rust_Mat' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/CLmap.umap.
+[2016.11.26-19.04.58:184][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Steel_Mat'
+[2016.11.26-19.04.58:184][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Steel_Mat' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/CLmap.umap.
+[2016.11.26-19.04.58:184][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:184][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/CLmap.umap.
+[2016.11.26-19.04.58:184][514]LogLinker:Warning: Can't find file '/Game/tube'
+[2016.11.26-19.04.58:184][514]LogLinker:Warning: Can't find file for asset '/Game/tube' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/CLmap.umap.
+[2016.11.26-19.04.58:184][514]LoadErrors:Error: Error /Game/CLmap : Can't find file for asset. /Game/tube
+[2016.11.26-19.04.58:185][514]LogLinker:Warning: Can't find file '/Game/mainChar2'
+[2016.11.26-19.04.58:185][514]LogLinker:Warning: Can't find file for asset '/Game/mainChar2' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/CLmap.umap.
+[2016.11.26-19.04.58:185][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:185][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/CLmap.umap.
+[2016.11.26-19.04.58:185][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:185][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/CLmap.umap.
+[2016.11.26-19.04.58:185][514]LogLinker:Warning: Can't find file '/Game/key'
+[2016.11.26-19.04.58:185][514]LogLinker:Warning: Can't find file for asset '/Game/key' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/CLmap.umap.
+[2016.11.26-19.04.58:185][514]LogLinker:Warning: Can't find file '/Game/tube'
+[2016.11.26-19.04.58:185][514]LogLinker:Warning: Can't find file for asset '/Game/tube' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/CLmap.umap.
+[2016.11.26-19.04.58:186][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:186][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/CLmap.umap.
+[2016.11.26-19.04.58:186][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:186][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading NULL.
+[2016.11.26-19.04.58:186][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:186][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading NULL.
+[2016.11.26-19.04.58:187][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:187][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading NULL.
+[2016.11.26-19.04.58:187][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:187][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading NULL.
+[2016.11.26-19.04.58:187][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:187][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading NULL.
+[2016.11.26-19.04.58:187][514]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_Mat'
+[2016.11.26-19.04.58:187][514]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_Mat' while loading NULL.
+[2016.11.26-19.04.58:187][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Rust_Mat'
+[2016.11.26-19.04.58:187][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Rust_Mat' while loading NULL.
+[2016.11.26-19.04.58:187][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Steel_Mat'
+[2016.11.26-19.04.58:187][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Steel_Mat' while loading NULL.
+[2016.11.26-19.04.58:187][514]LogLinker:Warning: Can't find file '/Game/key'
+[2016.11.26-19.04.58:188][514]LogLinker:Warning: Can't find file for asset '/Game/key' while loading NULL.
+[2016.11.26-19.04.58:188][514]LogLinker:Warning: Can't find file '/Game/mainChar2'
+[2016.11.26-19.04.58:188][514]LogLinker:Warning: Can't find file for asset '/Game/mainChar2' while loading NULL.
+[2016.11.26-19.04.58:188][514]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_Mat'
+[2016.11.26-19.04.58:188][514]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_Mat' while loading NULL.
+[2016.11.26-19.04.58:188][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Rust_Mat'
+[2016.11.26-19.04.58:188][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Rust_Mat' while loading NULL.
+[2016.11.26-19.04.58:188][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Steel_Mat'
+[2016.11.26-19.04.58:188][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Steel_Mat' while loading NULL.
+[2016.11.26-19.04.58:188][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:188][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading NULL.
+[2016.11.26-19.04.58:188][514]LogLinker:Warning: Can't find file '/Game/tube'
+[2016.11.26-19.04.58:188][514]LogLinker:Warning: Can't find file for asset '/Game/tube' while loading NULL.
+[2016.11.26-19.04.58:188][514]LogLinker:Warning: Can't find file '/Game/mainChar2'
+[2016.11.26-19.04.58:189][514]LogLinker:Warning: Can't find file for asset '/Game/mainChar2' while loading NULL.
+[2016.11.26-19.04.58:189][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:189][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading NULL.
+[2016.11.26-19.04.58:189][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:189][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading NULL.
+[2016.11.26-19.04.58:189][514]LogLinker:Warning: Can't find file '/Game/key'
+[2016.11.26-19.04.58:189][514]LogLinker:Warning: Can't find file for asset '/Game/key' while loading NULL.
+[2016.11.26-19.04.58:189][514]LogLinker:Warning: Can't find file '/Game/tube'
+[2016.11.26-19.04.58:189][514]LogLinker:Warning: Can't find file for asset '/Game/tube' while loading NULL.
+[2016.11.26-19.04.58:189][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:189][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading NULL.
+[2016.11.26-19.04.58:209][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:209][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading NULL.
+[2016.11.26-19.04.58:209][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:209][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading NULL.
+[2016.11.26-19.04.58:211][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:211][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading NULL.
+[2016.11.26-19.04.58:211][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:211][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading NULL.
+[2016.11.26-19.04.58:211][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:211][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading NULL.
+[2016.11.26-19.04.58:211][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:211][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading NULL.
+[2016.11.26-19.04.58:211][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:211][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading NULL.
+[2016.11.26-19.04.58:211][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:212][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading NULL.
+[2016.11.26-19.04.58:214][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:214][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading NULL.
+[2016.11.26-19.04.58:214][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:214][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading NULL.
+[2016.11.26-19.04.58:214][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:214][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading NULL.
+[2016.11.26-19.04.58:214][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:214][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading NULL.
+[2016.11.26-19.04.58:217][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:217][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading NULL.
+[2016.11.26-19.04.58:217][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:217][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading NULL.
+[2016.11.26-19.04.58:221][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:221][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading NULL.
+[2016.11.26-19.04.58:221][514]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.04.58:221][514]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C Referenced by PersistentLevel
+[2016.11.26-19.04.58:221][514]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading NULL.
+[2016.11.26-19.04.58:241][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Rust_Mat'
+[2016.11.26-19.04.58:242][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Rust_Mat.T_Metal_Rust_Mat Referenced by Model_3
+[2016.11.26-19.04.58:242][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Rust_Mat' while loading NULL.
+[2016.11.26-19.04.58:242][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Rust_Mat'
+[2016.11.26-19.04.58:242][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Rust_Mat.T_Metal_Rust_Mat Referenced by ModelComponent_5
+[2016.11.26-19.04.58:242][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Rust_Mat' while loading NULL.
+[2016.11.26-19.04.58:260][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Rust_Mat'
+[2016.11.26-19.04.58:260][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Rust_Mat.T_Metal_Rust_Mat Referenced by Polys_3
+[2016.11.26-19.04.58:260][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Rust_Mat' while loading NULL.
+[2016.11.26-19.04.58:273][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Steel_Mat'
+[2016.11.26-19.04.58:273][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Steel_Mat.T_Metal_Steel_Mat Referenced by Cube10
+[2016.11.26-19.04.58:273][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Steel_Mat' while loading NULL.
+[2016.11.26-19.04.58:274][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Steel_Mat'
+[2016.11.26-19.04.58:274][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Steel_Mat.T_Metal_Steel_Mat Referenced by Cube11
+[2016.11.26-19.04.58:274][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Steel_Mat' while loading NULL.
+[2016.11.26-19.04.58:274][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Steel_Mat'
+[2016.11.26-19.04.58:274][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Steel_Mat.T_Metal_Steel_Mat Referenced by Cube12
+[2016.11.26-19.04.58:274][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Steel_Mat' while loading NULL.
+[2016.11.26-19.04.58:275][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Steel_Mat'
+[2016.11.26-19.04.58:275][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Steel_Mat.T_Metal_Steel_Mat Referenced by Cube13
+[2016.11.26-19.04.58:275][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Steel_Mat' while loading NULL.
+[2016.11.26-19.04.58:278][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Steel_Mat'
+[2016.11.26-19.04.58:278][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Steel_Mat.T_Metal_Steel_Mat Referenced by Cube14
+[2016.11.26-19.04.58:279][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Steel_Mat' while loading NULL.
+[2016.11.26-19.04.58:279][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Steel_Mat'
+[2016.11.26-19.04.58:279][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Steel_Mat.T_Metal_Steel_Mat Referenced by Cube15
+[2016.11.26-19.04.58:279][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Steel_Mat' while loading NULL.
+[2016.11.26-19.04.58:279][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Steel_Mat'
+[2016.11.26-19.04.58:279][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Steel_Mat.T_Metal_Steel_Mat Referenced by Cube16
+[2016.11.26-19.04.58:279][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Steel_Mat' while loading NULL.
+[2016.11.26-19.04.58:279][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Steel_Mat'
+[2016.11.26-19.04.58:280][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Steel_Mat.T_Metal_Steel_Mat Referenced by Cube17
+[2016.11.26-19.04.58:280][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Steel_Mat' while loading NULL.
+[2016.11.26-19.04.58:302][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Steel_Mat'
+[2016.11.26-19.04.58:302][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Steel_Mat.T_Metal_Steel_Mat Referenced by Cube2_16
+[2016.11.26-19.04.58:302][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Steel_Mat' while loading NULL.
+[2016.11.26-19.04.58:302][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Steel_Mat'
+[2016.11.26-19.04.58:303][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Steel_Mat.T_Metal_Steel_Mat Referenced by Cube3
+[2016.11.26-19.04.58:303][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Steel_Mat' while loading NULL.
+[2016.11.26-19.04.58:303][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Steel_Mat'
+[2016.11.26-19.04.58:303][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Steel_Mat.T_Metal_Steel_Mat Referenced by Cube4
+[2016.11.26-19.04.58:303][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Steel_Mat' while loading NULL.
+[2016.11.26-19.04.58:303][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Steel_Mat'
+[2016.11.26-19.04.58:303][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Steel_Mat.T_Metal_Steel_Mat Referenced by Cube5
+[2016.11.26-19.04.58:303][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Steel_Mat' while loading NULL.
+[2016.11.26-19.04.58:309][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Steel_Mat'
+[2016.11.26-19.04.58:309][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Steel_Mat.T_Metal_Steel_Mat Referenced by Cube6_2
+[2016.11.26-19.04.58:309][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Steel_Mat' while loading NULL.
+[2016.11.26-19.04.58:310][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Steel_Mat'
+[2016.11.26-19.04.58:310][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Steel_Mat.T_Metal_Steel_Mat Referenced by Cube7
+[2016.11.26-19.04.58:310][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Steel_Mat' while loading NULL.
+[2016.11.26-19.04.58:319][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Steel_Mat'
+[2016.11.26-19.04.58:319][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Steel_Mat.T_Metal_Steel_Mat Referenced by Cube8
+[2016.11.26-19.04.58:319][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Steel_Mat' while loading NULL.
+[2016.11.26-19.04.58:320][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Rust_Mat'
+[2016.11.26-19.04.58:320][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Rust_Mat.T_Metal_Rust_Mat Referenced by Cube_2
+[2016.11.26-19.04.58:320][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Rust_Mat' while loading NULL.
+[2016.11.26-19.04.58:321][514]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_Mat'
+[2016.11.26-19.04.58:321][514]LoadErrors: Info Failed to load /Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_Mat.T_ML_Rubber_Blue_01_Mat Referenced by Floor_400x400_30
+[2016.11.26-19.04.58:321][514]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_Mat' while loading NULL.
+[2016.11.26-19.04.58:330][514]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_Mat'
+[2016.11.26-19.04.58:330][514]LoadErrors: Info Failed to load /Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_Mat.T_ML_Rubber_Blue_01_Mat Referenced by Floor_400x401_33
+[2016.11.26-19.04.58:330][514]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_Mat' while loading NULL.
+[2016.11.26-19.04.58:330][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Rust_Mat'
+[2016.11.26-19.04.58:331][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Rust_Mat.T_Metal_Rust_Mat Referenced by Floor_400x403_5
+[2016.11.26-19.04.58:331][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Rust_Mat' while loading NULL.
+[2016.11.26-19.04.58:331][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Rust_Mat'
+[2016.11.26-19.04.58:331][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Rust_Mat.T_Metal_Rust_Mat Referenced by Floor_400x404_8
+[2016.11.26-19.04.58:331][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Rust_Mat' while loading NULL.
+[2016.11.26-19.04.58:331][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Rust_Mat'
+[2016.11.26-19.04.58:331][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Rust_Mat.T_Metal_Rust_Mat Referenced by Floor_400x405_11
+[2016.11.26-19.04.58:331][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Rust_Mat' while loading NULL.
+[2016.11.26-19.04.58:332][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Rust_Mat'
+[2016.11.26-19.04.58:332][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Rust_Mat.T_Metal_Rust_Mat Referenced by Floor_400x406_24
+[2016.11.26-19.04.58:332][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Rust_Mat' while loading NULL.
+[2016.11.26-19.04.58:337][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Rust_Mat'
+[2016.11.26-19.04.58:337][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Rust_Mat.T_Metal_Rust_Mat Referenced by Floor_400x407_32
+[2016.11.26-19.04.58:338][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Rust_Mat' while loading NULL.
+[2016.11.26-19.04.58:338][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Rust_Mat'
+[2016.11.26-19.04.58:338][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Rust_Mat.T_Metal_Rust_Mat Referenced by Floor_400x408_26
+[2016.11.26-19.04.58:338][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Rust_Mat' while loading NULL.
+[2016.11.26-19.04.58:338][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Rust_Mat'
+[2016.11.26-19.04.58:338][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Rust_Mat.T_Metal_Rust_Mat Referenced by Floor_400x409
+[2016.11.26-19.04.58:339][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Rust_Mat' while loading NULL.
+[2016.11.26-19.04.58:339][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Rust_Mat'
+[2016.11.26-19.04.58:339][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Rust_Mat.T_Metal_Rust_Mat Referenced by Floor_400x410
+[2016.11.26-19.04.58:339][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Rust_Mat' while loading NULL.
+[2016.11.26-19.04.58:352][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Rust_Mat'
+[2016.11.26-19.04.58:352][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Rust_Mat.T_Metal_Rust_Mat Referenced by Floor_400x411
+[2016.11.26-19.04.58:352][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Rust_Mat' while loading NULL.
+[2016.11.26-19.04.58:352][514]LogLinker:Warning: Can't find file '/Game/key'
+[2016.11.26-19.04.58:352][514]LoadErrors: Info Failed to load /Game/key.key Referenced by key2_2
+[2016.11.26-19.04.58:352][514]LogLinker:Warning: Can't find file for asset '/Game/key' while loading NULL.
+[2016.11.26-19.04.58:362][514]LogLinker:Warning: Can't find file '/Game/tube'
+[2016.11.26-19.04.58:363][514]LoadErrors: Info Failed to load /Game/tube.tube Referenced by tube_6
+[2016.11.26-19.04.58:363][514]LogLinker:Warning: Can't find file for asset '/Game/tube' while loading NULL.
+[2016.11.26-19.04.58:363][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Rust_Mat'
+[2016.11.26-19.04.58:363][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Rust_Mat.T_Metal_Rust_Mat Referenced by Wall_400x400_3
+[2016.11.26-19.04.58:363][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Rust_Mat' while loading NULL.
+[2016.11.26-19.04.58:364][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Rust_Mat'
+[2016.11.26-19.04.58:364][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Rust_Mat.T_Metal_Rust_Mat Referenced by Wall_400x401
+[2016.11.26-19.04.58:364][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Rust_Mat' while loading NULL.
+[2016.11.26-19.04.58:364][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Rust_Mat'
+[2016.11.26-19.04.58:364][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Rust_Mat.T_Metal_Rust_Mat Referenced by Wall_400x402
+[2016.11.26-19.04.58:364][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Rust_Mat' while loading NULL.
+[2016.11.26-19.04.58:374][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Rust_Mat'
+[2016.11.26-19.04.58:374][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Rust_Mat.T_Metal_Rust_Mat Referenced by Wall_400x403
+[2016.11.26-19.04.58:374][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Rust_Mat' while loading NULL.
+[2016.11.26-19.04.58:375][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Rust_Mat'
+[2016.11.26-19.04.58:375][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Rust_Mat.T_Metal_Rust_Mat Referenced by Wall_400x404
+[2016.11.26-19.04.58:375][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Rust_Mat' while loading NULL.
+[2016.11.26-19.04.58:375][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Rust_Mat'
+[2016.11.26-19.04.58:375][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Rust_Mat.T_Metal_Rust_Mat Referenced by Wall_400x406_16
+[2016.11.26-19.04.58:375][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Rust_Mat' while loading NULL.
+[2016.11.26-19.04.58:413][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Rust_Mat'
+[2016.11.26-19.04.58:413][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Rust_Mat.T_Metal_Rust_Mat Referenced by Wall_400x407
+[2016.11.26-19.04.58:413][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Rust_Mat' while loading NULL.
+[2016.11.26-19.04.58:414][514]LogLinker:Warning: Can't find file '/Game/StarterContent/Textures/T_Metal_Rust_Mat'
+[2016.11.26-19.04.58:414][514]LoadErrors: Info Failed to load /Game/StarterContent/Textures/T_Metal_Rust_Mat.T_Metal_Rust_Mat Referenced by Wall_400x408_20
+[2016.11.26-19.04.58:414][514]LogLinker:Warning: Can't find file for asset '/Game/StarterContent/Textures/T_Metal_Rust_Mat' while loading NULL.
+[2016.11.26-19.04.58:707][514]LogAIModule: Creating AISystem for world CLmap
+[2016.11.26-19.04.58:725][514]LogActorComponent: RegisterComponentWithWorld: (/Game/CLmap.CLmap:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2016.11.26-19.04.58:772][514]Cmd: MAP LOAD FILE="../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/CLmap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.11.26-19.04.58:772][514]LightingResults: New page: Lighting Build
+[2016.11.26-19.04.58:773][514]LoadErrors: New page: Loading map: CLmap.umap
+[2016.11.26-19.04.58:786][514]MapCheck: New page: Map Check
+[2016.11.26-19.04.58:786][514]LightingResults: New page: Lighting Build
+[2016.11.26-19.04.58:869][514]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.11.26-19.04.58:869][514]MapCheck: Info Repaired painted vertex colors in 0.0s for 2 components in /Game/CLmap.  Resave map to fix. 
+[2016.11.26-19.04.58:869][514]MapCheck:Warning: Warning Spent 0.0s repairing painted vertex colors due to static mesh re-imports!  This will happen every load until the maps are resaved. 
+[2016.11.26-19.04.58:879][514]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.11.26-19.04.58:949][514]MapCheck: Info Map check complete: 0 Error(s), 1 Warning(s), took 70.503ms to complete.
+[2016.11.26-19.04.58:958][514]LogFileHelpers: Loading map 'CLmap' took 0.188
+[2016.11.26-19.04.58:968][514]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Arrow': ThirdPersonCharacter_C /Game/CLmap.CLmap:PersistentLevel.ThirdPersonCharacter_167
+[2016.11.26-19.04.58:968][514]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'FollowCamera': ThirdPersonCharacter_C /Game/CLmap.CLmap:PersistentLevel.ThirdPersonCharacter_167
+[2016.11.26-19.04.58:968][514]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CollisionCylinder': ThirdPersonCharacter_C /Game/CLmap.CLmap:PersistentLevel.ThirdPersonCharacter_167
+[2016.11.26-19.04.58:968][514]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CharMoveComp': ThirdPersonCharacter_C /Game/CLmap.CLmap:PersistentLevel.ThirdPersonCharacter_167
+[2016.11.26-19.04.58:968][514]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CharacterMesh0': ThirdPersonCharacter_C /Game/CLmap.CLmap:PersistentLevel.ThirdPersonCharacter_167
+[2016.11.26-19.04.58:968][514]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CameraBoom': ThirdPersonCharacter_C /Game/CLmap.CLmap:PersistentLevel.ThirdPersonCharacter_167
+[2016.11.26-19.05.12:557][327]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2016.11.26-19.05.12:557][327]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:557][327]LoadErrors:Error: Error /Game/Personal_Assets/ThirdPersonCharacter : Can't find file for asset. /Game/Mannequin/Animations/ThirdPerson_AnimBP
+[2016.11.26-19.05.12:608][327]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2016.11.26-19.05.12:608][327]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:608][327]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2016.11.26-19.05.12:608][327]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:608][327]LoadErrors:Error: Error /Game/Personal_Assets/ThirdPersonCharacter : Can't find file for asset. /Game/Mannequin/Character/Mesh/SK_Mannequin
+[2016.11.26-19.05.12:609][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:609][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/HUD.uasset.
+[2016.11.26-19.05.12:609][327]LoadErrors:Error: Error /Game/Personal_Assets/HUD : Can't find file for asset. /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter
+[2016.11.26-19.05.12:610][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:610][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/HUD.uasset.
+[2016.11.26-19.05.12:611][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:611][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/HUD.uasset.
+[2016.11.26-19.05.12:611][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:611][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/HUD.uasset.
+[2016.11.26-19.05.12:611][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:611][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/HUD.uasset.
+[2016.11.26-19.05.12:612][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:612][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:613][327]LoadErrors:Error: Error /Game/Personal_Assets/ThirdPersonCharacter : Can't find file for asset. /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter
+[2016.11.26-19.05.12:613][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:613][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:613][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:613][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:613][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:613][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:613][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:613][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:613][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:613][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:614][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:614][327]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C Referenced by HUD
+[2016.11.26-19.05.12:614][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:616][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:616][327]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C Referenced by K2Node_DynamicCast_0
+[2016.11.26-19.05.12:616][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:616][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:616][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:616][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:616][327]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C Referenced by K2Node_VariableSet_797
+[2016.11.26-19.05.12:616][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:616][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:616][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:617][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:617][327]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C Referenced by K2Node_VariableGet_1721
+[2016.11.26-19.05.12:617][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:617][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:617][327]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C Referenced by K2Node_VariableGet_0
+[2016.11.26-19.05.12:617][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:617][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:617][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:618][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:618][327]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C Referenced by K2Node_VariableGet_1
+[2016.11.26-19.05.12:618][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:618][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:618][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:619][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:619][327]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C Referenced by K2Node_VariableGet_2
+[2016.11.26-19.05.12:619][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:619][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:619][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:619][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:619][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:622][327]LogBlueprint:Warning: [HUD] 'Max_Health' variable not found. Base class was probably changed.
+[2016.11.26-19.05.12:622][327]LogBlueprint:Warning: [HUD] 'Health' variable not found. Base class was probably changed.
+[2016.11.26-19.05.12:622][327]LogBlueprint:Warning: [HUD] 'Score' variable not found. Base class was probably changed.
+[2016.11.26-19.05.12:638][327]LogBlueprint:Warning: [Compiler HUD] Warning Can't connect pins  Object  and  ReturnValue : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.11.26-19.05.12:638][327]LogBlueprint:Warning: [Compiler HUD] Warning Can't connect pins  ReturnValue  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.11.26-19.05.12:639][327]LogBlueprint:Warning: [Compiler HUD] Warning Could not find a variable named "Score" in 'HUD'.
+Make sure 'HUD' has been compiled for  K2Node_VariableGet_0
+[2016.11.26-19.05.12:639][327]LogBlueprint:Warning: [Compiler HUD] Warning Could not find a variable named "Health" in 'HUD'.
+Make sure 'HUD' has been compiled for  K2Node_VariableGet_1
+[2016.11.26-19.05.12:639][327]LogBlueprint:Warning: [Compiler HUD] Warning Could not find a variable named "Max_Health" in 'HUD'.
+Make sure 'HUD' has been compiled for  K2Node_VariableGet_2
+[2016.11.26-19.05.12:640][327]LogBlueprint:Error: [Compiler HUD] Error This blueprint (self) is not compatible with ' self ', therefore that pin must have a connection.
+[2016.11.26-19.05.12:640][327]LogBlueprint:Error: [Compiler HUD] Error The property associated with  Score  could not be found
+[2016.11.26-19.05.12:640][327]LogBlueprint:Error: [Compiler HUD] Error This blueprint (self) is not compatible with ' self ', therefore that pin must have a connection.
+[2016.11.26-19.05.12:640][327]LogBlueprint:Error: [Compiler HUD] Error This blueprint (self) is not compatible with ' self ', therefore that pin must have a connection.
+[2016.11.26-19.05.12:640][327]LogBlueprint:Error: [Compiler HUD] Error The property associated with  Max_Health  could not be found
+[2016.11.26-19.05.12:640][327]LogBlueprint:Error: [Compiler HUD] Error The property associated with  Health  could not be found
+[2016.11.26-19.05.12:643][327]LogBlueprint:Warning: [Compiler HUD] Warning [0041.08] Compile of HUD failed. 6 Fatal Issue(s) 5 Warning(s) [in 21 ms] (/Game/Personal_Assets/HUD.HUD)
+[2016.11.26-19.05.12:643][327]LogBlueprint:Warning: [Compiler HUD] Warning [0041.08] Compile of HUD failed. 6 Fatal Issue(s) 6 Warning(s) [in 0 ms] (/Game/Personal_Assets/HUD.HUD)
+[2016.11.26-19.05.12:644][327]LogBlueprint:Warning: [Compiler HUD] Warning [0041.08] Compile of HUD failed. 6 Fatal Issue(s) 7 Warning(s) [in 0 ms] (/Game/Personal_Assets/HUD.HUD)
+[2016.11.26-19.05.12:645][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:645][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/Pause.uasset.
+[2016.11.26-19.05.12:645][327]LoadErrors:Error: Error /Game/Personal_Assets/Pause : Can't find file for asset. /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter
+[2016.11.26-19.05.12:647][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:647][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/Pause.uasset.
+[2016.11.26-19.05.12:647][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:647][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/Pause.uasset.
+[2016.11.26-19.05.12:648][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:648][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:648][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:648][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:648][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:648][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:648][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:649][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:651][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:651][327]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C Referenced by K2Node_DynamicCast_28
+[2016.11.26-19.05.12:651][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:651][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:651][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:651][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:651][327]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter_C Referenced by K2Node_VariableGet_610
+[2016.11.26-19.05.12:651][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:652][327]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter'
+[2016.11.26-19.05.12:652][327]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:654][327]LogBlueprint:Warning: [Pause] 'HUD_Var' variable not found. Base class was probably changed.
+[2016.11.26-19.05.12:656][327]LogBlueprint:Warning: [Compiler Pause] Warning Can't connect pins  ReturnValue  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.11.26-19.05.12:656][327]LogBlueprint:Warning: [Compiler Pause] Warning Can't connect pins  Object  and  ReturnValue : This cast has an invalid target type (was the class deleted without a redirect?).
+[2016.11.26-19.05.12:656][327]LogBlueprint:Warning: [Compiler Pause] Warning Could not find a variable named "HUD_Var" in 'Pause'.
+Make sure 'Pause' has been compiled for  K2Node_VariableGet_610
+[2016.11.26-19.05.12:657][327]LogBlueprint:Error: [Compiler Pause] Error This blueprint (self) is not compatible with ' self ', therefore that pin must have a connection.
+[2016.11.26-19.05.12:657][327]LogBlueprint:Error: [Compiler Pause] Error The property associated with  HUD_Var  could not be found
+[2016.11.26-19.05.12:660][327]LogBlueprint:Warning: [Compiler Pause] Warning [0041.09] Compile of Pause failed. 2 Fatal Issue(s) 3 Warning(s) [in 5 ms] (/Game/Personal_Assets/Pause.Pause)
+[2016.11.26-19.05.12:660][327]LogBlueprint:Warning: [Compiler Pause] Warning [0041.09] Compile of Pause failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/Personal_Assets/Pause.Pause)
+[2016.11.26-19.05.12:660][327]LogBlueprint:Warning: [Compiler Pause] Warning [0041.09] Compile of Pause failed. 2 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Personal_Assets/Pause.Pause)
+[2016.11.26-19.05.12:661][327]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2016.11.26-19.05.12:661][327]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin' while loading ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Content/Personal_Assets/ThirdPersonCharacter.uasset.
+[2016.11.26-19.05.12:665][327]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2016.11.26-19.05.12:665][327]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading NULL.
+[2016.11.26-19.05.12:665][327]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2016.11.26-19.05.12:665][327]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading NULL.
+[2016.11.26-19.05.12:665][327]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2016.11.26-19.05.12:666][327]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin' while loading NULL.
+[2016.11.26-19.05.12:666][327]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2016.11.26-19.05.12:666][327]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin' while loading NULL.
+[2016.11.26-19.05.12:667][327]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2016.11.26-19.05.12:667][327]LoadErrors: Info Failed to load /Game/Mannequin/Animations/ThirdPerson_AnimBP.ThirdPerson_AnimBP_C Referenced by Default__ThirdPersonCharacter_C
+[2016.11.26-19.05.12:667][327]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading NULL.
+[2016.11.26-19.05.12:667][327]LogLinker:Warning: Can't find file '/Game/Mannequin/Animations/ThirdPerson_AnimBP'
+[2016.11.26-19.05.12:667][327]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Animations/ThirdPerson_AnimBP' while loading NULL.
+[2016.11.26-19.05.12:667][327]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Mesh/SK_Mannequin'
+[2016.11.26-19.05.12:667][327]LoadErrors: Info Failed to load /Game/Mannequin/Character/Mesh/SK_Mannequin.SK_Mannequin Referenced by Default__ThirdPersonCharacter_C
+[2016.11.26-19.05.12:667][327]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Mesh/SK_Mannequin' while loading NULL.
+[2016.11.26-19.05.12:703][327]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  K2Node_InputAction_3
+[2016.11.26-19.05.12:703][327]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  K2Node_InputAxisEvent_55
+[2016.11.26-19.05.12:704][327]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  K2Node_InputAxisEvent_43
+[2016.11.26-19.05.12:704][327]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_95
+[2016.11.26-19.05.12:704][327]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_85
+[2016.11.26-19.05.12:704][327]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  K2Node_InputAxisEvent_50
+[2016.11.26-19.05.12:704][327]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  K2Node_InputAxisEvent_42
+[2016.11.26-19.05.12:704][327]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Jump' for  K2Node_InputAction_60
+[2016.11.26-19.05.12:711][327]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0041.15] Compile of ThirdPersonCharacter successful, but with 8 Warning(s) [in 18 ms] (/Game/Personal_Assets/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.11.26-19.05.12:711][327]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0041.15] Compile of ThirdPersonCharacter successful, but with 9 Warning(s) [in 0 ms] (/Game/Personal_Assets/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.11.26-19.05.12:711][327]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0041.15] Compile of ThirdPersonCharacter successful, but with 10 Warning(s) [in 0 ms] (/Game/Personal_Assets/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.11.26-19.05.12:725][327]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  K2Node_InputAction_3
+[2016.11.26-19.05.12:725][327]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  K2Node_InputAxisEvent_55
+[2016.11.26-19.05.12:725][327]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  K2Node_InputAxisEvent_43
+[2016.11.26-19.05.12:725][327]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'MoveRight' for  K2Node_InputAxisEvent_95
+[2016.11.26-19.05.12:725][327]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'MoveForward' for  K2Node_InputAxisEvent_85
+[2016.11.26-19.05.12:726][327]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  K2Node_InputAxisEvent_50
+[2016.11.26-19.05.12:726][327]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  K2Node_InputAxisEvent_42
+[2016.11.26-19.05.12:726][327]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Jump' for  K2Node_InputAction_60
+[2016.11.26-19.05.12:732][327]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0041.17] Compile of ThirdPersonCharacter successful, but with 8 Warning(s) [in 17 ms] (/Game/Personal_Assets/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.11.26-19.05.12:732][327]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0041.17] Compile of ThirdPersonCharacter successful, but with 9 Warning(s) [in 0 ms] (/Game/Personal_Assets/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.11.26-19.05.12:732][327]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [0041.17] Compile of ThirdPersonCharacter successful, but with 10 Warning(s) [in 0 ms] (/Game/Personal_Assets/ThirdPersonCharacter.ThirdPersonCharacter)
+[2016.11.26-19.05.16:155][497]LogTemp: Repeting last play command: Selected Viewport
+[2016.11.26-19.05.16:160][497]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/CLmap.CLmap:PersistentLevel' has LevelScriptBlueprint '/Game/CLmap.CLmap:PersistentLevel.CLmap' with GeneratedClass '/Game/CLmap.CLmap_C' with ClassGeneratedBy '/Game/CLmap.CLmap:PersistentLevel.CLmap'
+[2016.11.26-19.05.16:160][497]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.11.26-19.05.20:413][497]PIE: New page: PIE session: CLmap (Nov 26, 2016, 7:05:20 AM)
+[2016.11.26-19.05.20:413][497]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_CLmap
+[2016.11.26-19.05.20:478][497]LogPlayLevel: PIE: StaticDuplicateObject took: (0.063517s)
+[2016.11.26-19.05.20:479][497]LogAIModule: Creating AISystem for world CLmap
+[2016.11.26-19.05.20:479][497]LogPlayLevel: PIE: World Init took: (0.001295s)
+[2016.11.26-19.05.20:479][497]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/CLmap.CLmap to /Game/UEDPIE_0_CLmap.CLmap (0.065782s)
+[2016.11.26-19.05.20:520][497]LogInit: XAudio2 using 'Realtek Digital Output (Realtek High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.11.26-19.05.20:530][497]LogInit: FAudioDevice initialized.
+[2016.11.26-19.05.20:610][497]LogLoad: Game class is 'GameModeBase'
+[2016.11.26-19.05.20:613][497]LogWorld: Bringing World /Game/UEDPIE_0_CLmap.CLmap up for play (max tick rate 60) at 2016.11.26-13.05.20
+[2016.11.26-19.05.20:695][497]LogWorld: Bringing up level for play took: 0.084377
+[2016.11.26-19.05.20:735][497]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2016.11.26-19.05.20:754][497]PIE:Warning: Warning The widget 'HUD_C' was already added to the screen.
+[2016.11.26-19.05.20:759][497]PIE: Info Play in editor start time for /Game/UEDPIE_0_CLmap 4.712
+[2016.11.26-19.05.20:759][497]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/CLmap.CLmap:PersistentLevel' has LevelScriptBlueprint '/Game/CLmap.CLmap:PersistentLevel.CLmap' with GeneratedClass '/Game/CLmap.CLmap_C' with ClassGeneratedBy '/Game/CLmap.CLmap:PersistentLevel.CLmap'
+[2016.11.26-19.05.36:554][428]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/CLmap.CLmap:PersistentLevel' has LevelScriptBlueprint '/Game/CLmap.CLmap:PersistentLevel.CLmap' with GeneratedClass '/Game/CLmap.CLmap_C' with ClassGeneratedBy '/Game/CLmap.CLmap:PersistentLevel.CLmap'
+[2016.11.26-19.05.36:720][428]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/CLmap.CLmap:PersistentLevel' has LevelScriptBlueprint '/Game/CLmap.CLmap:PersistentLevel.CLmap' with GeneratedClass '/Game/CLmap.CLmap_C' with ClassGeneratedBy '/Game/CLmap.CLmap:PersistentLevel.CLmap'
+[2016.11.26-19.15.18:980][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CLmap" FILE="../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Saved/Autosaves/Game/CLmap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.11.26-19.15.19:203][480]LogSavePackage: Save=217.58ms
+[2016.11.26-19.15.19:203][480]LogSavePackage: Moving '../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Saved/CLmap_Auto17F70196B4F7BA7BF9EC10C9F7BB3D37D.tmp' to '../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Saved/Autosaves/Game/CLmap_Auto1.umap'
+[2016.11.26-19.15.19:204][480]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Owner/Documents/Github/GameDev_CLone/CLone/Saved/Autosaves/Game/CLmap_Auto1.umap
+[2016.11.26-19.15.19:206][480]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/CLmap' took 0.243
+[2016.11.26-19.15.19:206][480]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.243
+[2016.11.27-02.40.28:434][208]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2016.11.27-15.14.24:981][327]LogHttp:Warning: 000000687EEFF400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.11.27-15.14.24:981][327]LogHttp:Warning: 000000687EEFF400: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x686badf9e8 [can pipeline])
+[2016.11.27-15.14.24:981][327]LogHttp:Warning: 000000687EEFF400: libcurl info message cache 1 (Re-using existing connection! (#118) with host datarouter.ol.epicgames.com)
+[2016.11.27-15.14.24:981][327]LogHttp:Warning: 000000687EEFF400: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (52.5.234.188) port 443 (#118))
+[2016.11.27-15.14.24:981][327]LogHttp:Warning: 000000687EEFF400: libcurl info message cache 3 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2016.11.27-15.14.24:981][327]LogHttp:Warning: 000000687EEFF400: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2016.11.27-15.14.24:981][327]LogHttp:Warning: 000000687EEFF400: libcurl info message cache 5 (Closing connection 118)
+[2016.11.27-15.14.24:981][327]LogHttp:Warning: 000000687EEFF400: libcurl info message cache 6 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC1543BF6-49EF-811D-3B46-B39F4D5AFF08%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.14.0-3195953%2B%2B%2BUE4%2BRelease-4.14&UserID=0af7ef94488295e8081a9b97b38da3a0%7C4ead71126f2d47a882bdd6347c84c7cf%7Cfff11435-5af3-4f21-afa5-200e57869e3f&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2016.11.27-15.14.24:981][327]LogHttp:Warning: 000000687EEFF400: libcurl info message cache 7 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.11.27-15.14.24:981][327]LogHttp:Warning: 000000687EEFF400: libcurl info message cache 8 (Closing connection 119)
